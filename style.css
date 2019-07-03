@@ -1,0 +1,83 @@
+body{
+	padding: auto;
+	margin: auto;
+	background-image: url(http://localhost/ps4.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed center;
+	background-size: cover;
+	height: 100%;
+	color: white;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.resultbox{
+	position: absolute;
+    box-sizing: content-box;
+    width: 20%;
+    height: 20%;
+    right: 0;
+    bottom: 30%;
+    margin-right: 40%;
+    border: aqua;
+}
+
+.gmain{
+	display: inline-block;
+}
+
+#homepage{
+	text-align: center;
+	font: 'Impact';
+	color: white;
+}
+
+.inpf{
+	color: white;
+}
+
+.logpos{
+	right: 0;
+	top: 70px;
+	position: absolute;
+}
+
+
+.header{
+	background-color: #ACACAC;
+	background-image: linear-gradient(to top, rgb(39, 38, 46), rgb(68, 0, 68));
+	color: white;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+	padding: 5px;
+}
+form{
+	width: 40%;
+	padding: 30px;
+	border: 1px solid #cbcbcb;
+	margin: 5px auto;
+}
+.textInput{
+	margin-top: 2px;
+	height: 28px;
+	border: 1px solid #ACACAC;
+	font-size: 16px;
+	padding: 1px;
+	width: 100%;
+}
+#error_msg{
+	width: 50%;
+	margin: 5px auto;
+	height: 30px;
+	border: 1px solid #FF0000;
+	color: #FF0000;
+	text-align: center;
+	padding-top: 10px;
+}
+td{
+	text-align: right;
+}
